@@ -1,0 +1,17 @@
+<!Doctype html>
+<html>
+<head>
+<title>login</title>
+</head>
+<body style="background-color:powderblue;padding:500px"><br>
+<form style="background-color:grey;padding:80px">
+<label for="uname">Username:</label><br>
+<input type="text" id="uname" name="uname"Style="width:scope;color:black">
+<br><br>
+<label for="pswd">Password:</label><br>
+<input type="password" id="pswd" name="pswd" Style="width:scope;color:black">
+<br><br>
+<button style="width:scope;color:#00ff00;background-color:black">Login</button>
+</form>
+</body>
+</html>

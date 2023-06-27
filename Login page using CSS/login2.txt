@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title>login</title>
+<link rel="stylesheet" type="text/css" href="loginstyle.css">
+</head>
+<body>
+<h2>LOGIN FORM</h2>
+<form id="login">
+<label for="uname">Username:</label><br>
+<input type="Username" id="uname" name="uname">
+<br><br>
+<label for="pswd">Password:</label><br>
+<input type="Password" id="pswd" name="pswd">
+<br><br>
+<input type="button" name="log" id="log" value="Login">
+</form>
+</body>
+</html>

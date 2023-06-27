@@ -1,0 +1,99 @@
+<html>
+<head>
+<style>
+body{
+background-color:#23463f;
+text-align:center;
+}
+p{
+color:red;
+font-weight:bold;
+}
+</style>
+<script>
+
+function replace(){
+var k=document.cse.uname.value;
+var i=document.cse.pwd.value;
+var yes1=document.getElementById("man").checked;
+var no1=document.getElementById("woman").checked;
+var x=document.cse.email.value;
+var y=document.cse.Zip.value;
+var atposition=x.indexOf("@");
+var dotposition=x.lastIndexOf(".");
+var check=true;
+
+if(k.length==0)
+{
+document.getElementById("userdemo").innerHTML="Please enter the user name";
+check=false;
+}
+else{
+document.getElementById("userdemo").innerHTML="Hi "+k;
+}
+
+if((isNaN(i))||(i.length<6))
+{
+document.getElementById("passdemo").innerHTML="Please enter the 6 numerical charcters as password";
+check=false;
+}
+else{
+document.getElementById("passdemo").innerHTML="Good Password";
+}
+
+if((yes1==false)&&(no1==false))
+{
+document.getElementById("genderdemo").innerHTML="Please select any one";
+check=false;
+}
+else{
+document.getElementById("genderdemo").innerHTML="Selected "+(yes1?"Male":"Female");
+}
+
+if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){
+document.getElementById("maildemo").innerHTML="Please enter the correct format of mailid";
+check=false;
+}
+else{
+document.getElementById("maildemo").innerHTML="correct format and mail id: "+x;
+}
+
+if((isNaN(y)) ||(y.length<6 ))
+{
+document.getElementById("zipdemo").innerHTML="Please enter 6 numerical letters as ZipCode";
+}
+else{
+document.getElementById("zipdemo").innerHTML="Correct format: "+y;
+if(check){
+return true;
+}
+}
+return false;
+
+}
+</script>
+</head>
+<body>
+<form name="cse" action="ex.html" onsubmit="return replace()">
+UserName:<input type="text" name="uname">
+<p id="userdemo"></p><br>
+
+Password:<input type="password" name="pwd">
+<p id="passdemo"></p><br>
+
+Gender:
+Male<input type="radio" name="Gender" value="male" id="man">
+Female<input type="radio" name="Gender" value="female" id="woman">
+<p id="genderdemo"></p>
+
+Email-id:<input type="text" name="email">
+<p id="maildemo"></p>
+
+ZIP<input type="text" name="Zip"><br>
+<p id="zipdemo"> </p>
+
+<input type="submit" value="Submit" />
+<input type="reset">
+</form>
+</body>
+</html>

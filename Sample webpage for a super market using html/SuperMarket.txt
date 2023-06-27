@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<title>Super Market</title>
+</head>
+<body>
+<h1>Welcome to ABC Super Market</h1>
+<h6>Free Door delivery</h6>
+<h6>For more information Contact:9876543210</h6>
+<h4>List of items available are:</h4>
+<ul>
+<li>Tomatato</li>
+<li>Potato</li>
+<li>Carrot</li>
+<li>Cabbage</li>
+<li>Cauliflower</li>
+<li>Bread</li>
+<li>Pasta</li>
+<li>Noodles</li>
+<li>Several other groceries</li>
+</ul>
+<p><b>Kindly Enter your details and grocery list:</b></p>
+<form>
+<label for="Cname">Customer Name:</label><br>
+<input type="text" id="Cname" name="Cname"><br>
+<label for="mail">EmailID:</label><br>
+<input type="text" id="mail" name="mail"><br>
+<label for="Phno">Phone Number:</label><br>
+<input type="text" id="Phno" name="Phno"><br>
+<label for="Addrs">Address:</label><br>
+<input type="text" id="Addrs" name="Addrs"><br>
+<label><b>Required Grocery items:</b></label><br>
+<input type="Checkbox" id="item1" name="item1" value="Tomato">
+<label for="item1">Tomato</label><br>
+<input type="Checkbox" id="item2" name="item2" value="Potato">
+<label for="item2">Potato</label><br>
+<input type="Checkbox" id="item3" name="item3" value="Carrot">
+<label for="item3">Carrot</label><br>
+<input type="Checkbox" id="item4" name="item4" value="Cabbage">
+<label for="item4">Cabbage</label><br>
+<input type="Checkbox" id="item5" name="item5" value="Cauliflower">
+<label for="item5">Cauliflower</label><br>
+<input type="Checkbox" id="item6" name="item6" value="Bread">
+<label for="item6">Bread</label><br>
+<input type="Checkbox" id="item7" name="item7" value="Pasta">
+<label for="item7">Pasta</label><br>
+<input type="Checkbox" id="item8" name="item8" value="Noodles">
+<label for="item8">Noodles</label><br>
+<input type="Checkbox" id="item9" name="item9" value="Other">
+<label for="item9">Other</label><br>
+<input type="Submit" value="Submit" onclick="display()">
+</form>
+<script>
+function display()
+{
+alert("Your order has been submitted successfully");
+}
+</script>
+</body>
+</html>
+
