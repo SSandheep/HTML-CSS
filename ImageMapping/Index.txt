@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tamilnadu</title>
+</head>
+<body >
+<div class="header">
+<br>
+<h1 style="text-align: center;">TamilNadu Map</h1>
+<hr>
+</div>
+<img src="img/image72.png" alt="Planets" style="height: 795px;
+width: 1173px;
+display: block;
+margin-left: auto;
+margin-right: auto;" usemap="#tnMap">
+<map name="tnMap">
+<area shape="rect" coords="600,450,640,500" alt="keeladi" href="Keeladi.html">
+<area shape="rect" coords="530,450,560,540" alt="mangulam" href="mangulam.html">
+<area shape="rect" coords="600,370,640,390" alt="srirangam" href="srirangam.html">
+<area shape="rect" coords="430,350,460,390" alt="anaimalai" href="anaimalai.html">
+</map>
+</body>
+</html>
+

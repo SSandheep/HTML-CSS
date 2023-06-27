@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+<title>Mangulam</title>
+</head>
+<body>
+<div class="header">
+<br>
+<h1 style="text-align: center;"> MANGULAM</h1>
+<hr>
+</div>
+<br>
+<p>
+<b>TN</b> , located at 25 Km from Madurai town, is a well known site for the presence of
+early Jain Caves and Rock beds in the hillock called Ovamalai. Systematic excavation was conducted at the
+potential sites of this village during the year 2006-2007. </p>
+<br>
+<br>
+<a href="https://www.tnarch.gov.in/tn" target="_blank">
+<img src="img/mangulam1.jpg" style="width: 1321px;height: 631.667px;" alt="tn">
+</a>
+</body>
+</html>
