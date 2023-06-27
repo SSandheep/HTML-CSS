@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Knight</title>
+<link rel="stylesheet" type="text/css" href="ChessStyle.css">
+</head>
+<body>
+<h1>Knight</h1>
+<img src="Knightimage.jpg"alt="Knight will be displayed" width="200" height="200">
+<ul>
+<li>When a game begins, each side starts with two knights. White's knights start the game on b1 and g1, while Black's knights begin on b8 and g8.</li>
+<li>A knight moves to any of the closest squares that are not on the same rank, file, or diagonal.</li>
+<li>The knight moves multiple squares each move.</li>
+<li>It either moves up or down one square vertically and over two squares horizontally OR up or down two squares vertically and over one square horizontally.</li>
+<li>This movement can be remembered as an "L-shape" because it looks like a capital "L".</li>
+<li>The knight is the only piece that can leap over other pieces.</li>
+<li>The knight is the trickiest piece in chess! It moves very differently than other pieces and can deliver the dreaded fork or even a smothered mate!</li>
+<li>The knight is unique for two major reasons:It is the only piece that can hop or jump over another piece, and every time it moves it alternates from a light-square to a dark-square, or vice-versa.</li>
+<li>The knight is considered a minor piece (like a bishop) and is worth three points.</li>
+<li>It is considerably more valuable than a pawn (which is worth one point), equally valuable as a bishop (also three points), but less valuable than a rook (five points) and a queen (nine points).</li>
+<li>Another unique aspect of the knight is that it always alternates between the two colors.</li>
+<li>If a knight starts on a light-square and makes a legal move, it always ends on a dark-square.</li>
+<li>If a knight starts on a dark-square, it always ends on a light-square.</li>
+<li>This is the opposite of a bishop, which is confined to one square color for the entire game.</li>
+<li>Always remember that a knight captures a piece only if it lands on the occupied square, not if it jumps over it! Another cool thing about knights!They can deliver devastating forks and smothered mates!</li>
+<li>A fork is when two or more pieces are attacked simultaneously.</li>
+<li>Even though this can be achieved by other pieces, the knight is the best-suited piece for this type of attack because it can attack multiple pieces that are more valuable than itself in a single move.</li>
+<li>An advanced technique that only a knight can perform is called a smothered mate.</li>
+<li>A smothered mate is the name for a checkmate that occurs when a king is surrounded by their own pieces and cannot move out of check.</li>
+</ul>
+<img src="Knightmoves.png"alt="Movement of knight will be displayed" width="400" height="400">
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>King</title>
+<link rel="stylesheet" type="text/css" href="ChessStyle.css">
+</head>
+<body>
+<h1>King</h1>
+<img src="Kingimage.png"alt="King will be displayed" width="200" height="200">
+<ul>
+<li>The king is not the most powerful chess piece, but it is the most important one! If a king is put in checkmate, then the game is over! </li>
+<li>The king is less powerful than almost every chess piece, but it is also unique: the king is the only piece that can never be captured! If a king is attacked, it is in "check." At the beginning of the game, the white king starts on the e1 square, and the black king starts on e8.</li>
+<li>The pawns on the second and seventh ranks protect the kings, but always be mindful of the f2 and f7 squares—these squares are usually involved in very quick checkmates, as pawns on these squares are the only ones protected solely by the king when a game begins!</li>
+<li>The king's movement is limited compared to other chess pieces. It can move one square in any direction. In the following position, the king can move to any of the highlighted squares.</li>
+<li>When a king is attacked, it is in check.</li>
+<li>A king cannot move into check (that is considered an illegal move), and if a king is put in check, it must get out of check. </li>
+<li>There are three ways to get out of check:Move the king out of check,block the check with another piece and capture the piece putting the king in check.</li>
+<li>If a king is in check and none of these options are legal, then a checkmate has occurred and the game is over!</li>
+</ul>
+<img src="Kingmoves.png"alt="Movement of king will be displayed" width="400" height="400">
+</body>
+</html>

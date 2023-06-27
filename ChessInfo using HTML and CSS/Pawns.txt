@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+<title>Pawns</title>
+<link rel="stylesheet" type="text/css" href="ChessStyle.css">
+</head>
+<body>
+<h1>Pawns</h1>
+<img src="Pawnsimage.jpg"alt="Movement of rook will be displayed" width="200" height="200">
+<ul>
+<li>The pawn is the least powerful chess piece, but it can be promoted into any other chess piece (except for a king). As Philidor once said, "Pawns are the soul of chess!"</li>
+<li>When a game begins, each side starts with eight pawns. </li>
+<li>The pawns begin the game on the second and seventh rank: White's pawns start on the second rank, while Black's pawns are located on the seventh rank.</li>
+<li>A pawn is worth one point. It is considerably less valuable than the other pieces by itself, but in many positions, three pawns are equal to or even stronger than a minor piece (knight or bishop).</li>
+<li>As mentioned, the pawn is the least powerful piece. A pawn moves forward one square unless it is that pawn's first move.</li>
+<li> If it is the pawn's first move, then it can move one or two squares.</li>
+<li>The pawn can only move forward if it is not blocked by another piece.</li>
+<li>The pawn attacks or captures one square diagonally in each direction.</li>
+<li>There is a special rule in chess regarding pawn captures known as en passant. If a white pawn is on the fifth rank and a black pawn's first move places it directly next to the white pawn, then the white pawn can capture the black pawn as if it moved just one square. This rule also works if a black pawn is on the fourth rank and a white pawn's first move places it directly next to the black pawn—in this case, the black pawn may capture the white pawn as if it moved just one square (but only for this move)!</li>
+<li>Pawns have the unique ability to be able to promote into a knight, bishop, rook or queen! If a white pawn reaches the eighth rank or if a black pawn reaches the first rank, then that pawn gets promoted. It is up to the player who is promoting a pawn to decide which piece they are promoting to, although most of the time promoting to a queen is the desirable choice.</li>
+<li>In rare instances, underpromotion is best.</li>
+<li> Underpromotion occurs when a pawn is promoted to a knight, bishop, or rook instead of a queen.</li>
+</ul>
+<img src="Pawnmoves.png"alt="Movement of pawns will be displayed" width="400" height="400">
+</body>
+</html>

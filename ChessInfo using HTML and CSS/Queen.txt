@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Queen</title>
+<link rel="stylesheet" type="text/css" href="ChessStyle.css">
+</head>
+<body>
+<h1>Queen</h1>
+<img src="Queenimage.jpg"alt="Queen will be displayed" width="200" height="200">
+<ul>
+<li>The queen is the most powerful of all of the chess pieces and is often used in early and brutal attacks.</li>
+<li>It is important to learn how to make your opponent fear your dangerous queen!</li>
+<li>At the beginning of the game, the white queen is placed on the d1-square, and the black queen starts on the d8-square (directly next to the kings).</li>
+<li>It is worth noting that the white queen is placed on a light square, and the black queen is placed on a dark square.</li>
+<li>The queen is more valuable than any other piece. The queen is worth nine points, a pawn is worth one point, a bishop and knight are worth three points, and a rook is worth five points.</li>
+<li>As mentioned, the queen is the most powerful piece. This is because the queen can attack (or defend) more squares than any other piece!</li>
+<li>The queen moves similarly to multiple pieces. It can move in any direction like a king (but the queen is not limited to a single square). The queen can move the same way a rook can, moving freely up and down on any file and left and right on any rank.</li>
+<li>The queen can also move freely on any diagonal like a bishop.</li>
+<li>The queen can move as many squares as it likes as long as it is not blocked by another piece or occupied square.</li>
+<li>The queen can capture an enemy piece by moving to the occupied square.</li>
+<li>One easy way to remember how the queen moves is that it moves like a rook and bishop combined.</li>
+</ul>
+<img src="Queenmoves.png"alt="Movement of Queen will be displayed" width="400" height="400">
+</body>
+</html>
